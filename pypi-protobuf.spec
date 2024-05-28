@@ -6,10 +6,10 @@
 # autospec commit: 6fa3d52
 #
 Name     : pypi-protobuf
-Version  : 5.27.0
-Release  : 2
-URL      : https://files.pythonhosted.org/packages/73/cb/8d83e166a822d893c2c07ef4a57598873634b65a68153ca62b6ba85f67b9/protobuf-5.27.0.tar.gz
-Source0  : https://files.pythonhosted.org/packages/73/cb/8d83e166a822d893c2c07ef4a57598873634b65a68153ca62b6ba85f67b9/protobuf-5.27.0.tar.gz
+Version  : 5.26.1
+Release  : 3
+URL      : https://files.pythonhosted.org/packages/d2/e5/7e22ca7201a6b1040aae7787d0fe6cd970311da376a86fdafa5182be1d1b/protobuf-5.26.1.tar.gz
+Source0  : https://files.pythonhosted.org/packages/d2/e5/7e22ca7201a6b1040aae7787d0fe6cd970311da376a86fdafa5182be1d1b/protobuf-5.26.1.tar.gz
 Summary  : Protocol Buffers
 Group    : Development/Tools
 License  : BSD-3-Clause
@@ -53,15 +53,15 @@ python3 components for the pypi-protobuf package.
 
 
 %prep
-%setup -q -n protobuf-5.27.0
-cd %{_builddir}/protobuf-5.27.0
+%setup -q -n protobuf-5.26.1
+cd %{_builddir}/protobuf-5.26.1
 
 %build
 export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C.UTF-8
-export SOURCE_DATE_EPOCH=1716914173
+export SOURCE_DATE_EPOCH=1716914458
 export GCC_IGNORE_WERROR=1
 export AR=gcc-ar
 export RANLIB=gcc-ranlib

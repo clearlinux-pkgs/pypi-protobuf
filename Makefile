@@ -1,5 +1,5 @@
 PKG_NAME := pypi-protobuf
-URL = https://files.pythonhosted.org/packages/71/a5/d61e4263e62e6db1990c120d682870e5c50a30fb6b26119a214c7a014847/protobuf-5.27.2.tar.gz
+URL = https://files.pythonhosted.org/packages/c8/8c/cf2ac658216eebe49eaedf1e06bc06cbf6a143469236294a1171a51357c3/protobuf-6.30.2.tar.gz
 ARCHIVES = 
 
 include ../common/Makefile.common
